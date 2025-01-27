@@ -203,15 +203,15 @@ namespace ADV03
             //}
 
             #region HashSet Methods
-           // HashSet<int> Numbers01 = new HashSet<int>() { 1,2,3,4,5};
-           // HashSet<int> Numbers02 = new HashSet<int>() { 1, 2, 3, 4, 5 };
+            // HashSet<int> Numbers01 = new HashSet<int>() { 1,2,3,4,5};
+            // HashSet<int> Numbers02 = new HashSet<int>() { 1, 2, 3, 4, 5 };
             // Numbers01.TryGetValue(22, out int result);
             // Console.WriteLine(result);
             // Numbers02.ExceptWith(Numbers01);
             //Numbers02.SymmetricExceptWith(Numbers01);
             //Console.WriteLine(Numbers01.IsSubsetOf(Numbers02)); 
             //Console.WriteLine(Numbers01.IsProperSubsetOf(Numbers02));
-           // Console.WriteLine(Numbers01.Overlaps(Numbers02));
+            // Console.WriteLine(Numbers01.Overlaps(Numbers02));
             //foreach (int i in Numbers02)
             //{
             //    Console.WriteLine(i);
@@ -221,7 +221,16 @@ namespace ADV03
             #endregion
 
             #region  Generic Collection -SortedSet(BBST)
-
+          //  SortedSet<int> Numbers = new SortedSet<int>();
+          //  Numbers.Add(15);
+          //  Numbers.Add(1);
+          //  Numbers.Add(4);
+          //  Numbers.Add(2);
+           
+          //foreach (int i in Numbers)
+          //  {
+          //      Console.WriteLine(i);
+          //  }
             #endregion
         }
     }
